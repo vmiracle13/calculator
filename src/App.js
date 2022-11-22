@@ -41,7 +41,7 @@ function App() {
       </header>
 
       <main>
-        {[...Array(9).keys()].map((number) => (
+        {[...Array(10).keys()].map((number) => (
           <button onClick={() => setNumber(number)} key={number}>{number}</button>
         ))}
 
